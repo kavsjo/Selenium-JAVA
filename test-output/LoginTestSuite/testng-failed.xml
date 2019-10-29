@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [LoginTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="OrderBlueJeansE2E-chrome(failed)">
+    <parameter name="zip" value="41111"/>
+    <parameter name="city" value="Amex"/>
+    <parameter name="address2" value="Färjåsvägen 4"/>
+    <parameter name="address1" value="Barnhusgatan 11"/>
+    <parameter name="expectedSuccesMessage" value="Your order has been successfully processed!"/>
+    <parameter name="expectedOrderMessage" value="Click here for order details."/>
+    <parameter name="creditcard" value="Amex"/>
+    <parameter name="password" value="landa1234"/>
+    <parameter name="phoneNumber" value="0736223312"/>
+    <parameter name="cvvCode" value="123"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="cardholderName" value="Hans Landa"/>
+    <parameter name="billingMessage" value="Select a billing address from your address book or enter a new address."/>
+    <parameter name="company" value="Sogeti"/>
+    <parameter name="expireYear" value="2022"/>
+    <parameter name="cardNumber" value="4572411440033156"/>
+    <parameter name="username" value="landa@hotmail.com"/>
+    <classes>
+      <class name="com.blocket.uitest.OrderBlueJeansE2E">
+        <methods>
+          <include name="E2EOrderBlueJeans" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.blocket.uitest.OrderBlueJeansE2E -->
+    </classes>
+  </test> <!-- OrderBlueJeansE2E-chrome(failed) -->
+</suite> <!-- Failed suite [LoginTestSuite] -->

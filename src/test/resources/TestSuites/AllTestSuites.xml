@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AllTestSuites" verbose="1" parallel="tests" thread-count="5">
+
+	<test name="Logintests-chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.blocket.uitest.LoginTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="OrderBlueJeansE2E">
+		<parameter name="browser" value="crhome"></parameter> 
+		<classes>
+			<class name="com.blocket.uitest.OrderBlueJeansE2E">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

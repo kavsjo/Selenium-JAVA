@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [AllTestSuites]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="OrderBlueJeansE2E(failed)">
+    <parameter name="browser" value="crhome"/>
+    <classes>
+      <class name="com.blocket.uitest.OrderBlueJeansE2E">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="LoginAnnDeleteAddNewAddress"/>
+        </methods>
+      </class> <!-- com.blocket.uitest.OrderBlueJeansE2E -->
+    </classes>
+  </test> <!-- OrderBlueJeansE2E(failed) -->
+</suite> <!-- Failed suite [AllTestSuites] -->

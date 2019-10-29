@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [OrderSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="E2EOrderBlueJeans(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.blocket.uitest.OrderBlueJeansE2E">
+        <methods>
+          <include name="E2EOrderBlueJeans" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.blocket.uitest.OrderBlueJeansE2E -->
+    </classes>
+  </test> <!-- E2EOrderBlueJeans(failed) -->
+</suite> <!-- Failed suite [OrderSuite] -->

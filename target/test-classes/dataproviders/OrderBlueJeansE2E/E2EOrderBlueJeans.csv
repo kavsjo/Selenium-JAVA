@@ -1,0 +1,2 @@
+no,username,password,company,city,address1,address2,zip,phoneNumber,cardholderName,creditcard,expireMonth,expireYear,cardNumber,cvvCode,billingMessage,expectedOrderMessage,expectedSuccesMessage
+1,landa@hotmail.com,landa1234,Sogeti,Göteborg,Barnhusgatan 11,Färjåsvägen 4,41111,0736223312,Hans Landa,Amex,4,2022,4572411440033156,123,Select a billing address from your address book or enter a new address.,Click here for order details.,Your order has been successfully processed!

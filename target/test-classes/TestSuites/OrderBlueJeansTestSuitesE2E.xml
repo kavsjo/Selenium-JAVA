@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="OrderSuite" verbose="1" parallel="tests" thread-count="5">
+
+	<test name="E2EOrderBlueJeans">
+		<parameter name="browser" value="crhome"></parameter> 
+		<classes>
+			<class name="com.blocket.uitest.OrderBlueJeansE2E">
+			</class>
+		</classes>
+	</test>
+
+	<!--  <test name="OrderBlueJeansE2E-chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="username" value="landa@hotmail.com"></parameter>
+		<parameter name="password" value="landa1234"></parameter>
+		<parameter name="company" value="Sogeti"></parameter>
+		<parameter name="city" value="Göteborg"></parameter>
+		<parameter name="address1" value="Barnhusgatan 11"></parameter>
+		<parameter name="address2" value="Färjåsvägen 4"></parameter>
+		<parameter name="zip" value="41111"></parameter>
+		<parameter name="phoneNumber" value="0736223312"></parameter>
+		<parameter name="cardholderName" value="Hans Landa"></parameter>
+		<parameter name="creditcard" value="Amex"></parameter>
+		<parameter name="expireMonth" value=4></parameter>
+		<parameter name="expireYear" value="2022"></parameter>
+		<parameter name="cardNumber" value="4572411440033156"></parameter>
+		<parameter name="cvvCode" value="123"></parameter>
+		<parameter name="billingMessage" value="Select a billing address from your address book or enter a new address."></parameter>
+		<parameter name="expectedOrderMessage" value="Click here for order details."></parameter>
+		<parameter name="expectedSuccesMessage" value="Your order has been successfully processed!"></parameter>
+		<classes>
+			<class name="com.blocket.uitest.OrderBlueJeansE2E">
+			</class>
+		</classes>
+	</test>-->
+	
+</suite>

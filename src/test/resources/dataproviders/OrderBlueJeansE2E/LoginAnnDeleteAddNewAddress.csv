@@ -1,0 +1,2 @@
+no,firstname,lastname,username,password,company,city,address1,address2,zip,phoneNumber,succesMessage
+1,Hans,Landa,landa@hotmail.com,landa1234,Sogeti,G�teborg,Barnhusgatan 11,F�rj�sv�gen 4,41111,0736223312,Delete button not showing, that means that no new address was added!
