@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.blocket.uitest.OrderBlueJeansE2E">
+      <class name="com.blocket.uitest.LoginTest">
         <methods>
-          <include name="E2EOrderBlueJeans"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="invalidLoginTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.blocket.uitest.OrderBlueJeansE2E -->
+      </class> <!-- com.blocket.uitest.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
